@@ -18,10 +18,14 @@ body {
 
 .header .container {
     padding: 8px 0;
-    width: 75%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header img {
+    width: 75px;
 }
 
 .header .nav-links {
@@ -31,8 +35,8 @@ body {
 
 .header .search-bar {
     display: inline-block;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 400px;
+    /* margin-left: auto; */
     height: 100px;
     width: 200px;
 }
@@ -47,5 +51,47 @@ body {
 
 .content {
     padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section-title {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.noticias {
+    text-align: center;
+}
+
+.noticias img {
+    width: 50%;
+    padding-top: 10px;
+}
+
+.noticia1 {
+    float: left;
+    width: 33%;
+    border-right: 1px solid black;
+}
+
+.noticia2 {
+    float: left;
+    width: 33%;
+    border-right: 1px solid black;
+}
+
+.noticia3 {
+    float: left;
+    width: 33%;
+}
+
+.sobre {
+    padding-top: 275px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
